@@ -1,5 +1,5 @@
 import React from "react";
-import { BadgeLabelType, Color } from "./types";
+import { BadgeLabelType, Color } from "../types";
 
 interface Iprops {
   value: number;

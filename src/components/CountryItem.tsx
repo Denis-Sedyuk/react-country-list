@@ -1,6 +1,6 @@
 import React from "react";
 import { Badge } from "./Badge";
-import { Color, Icountry } from "./types";
+import { Color, Icountry } from "../types";
 
 interface Iprops {
   country: Icountry;

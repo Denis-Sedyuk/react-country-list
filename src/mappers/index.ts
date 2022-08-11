@@ -1,7 +1,7 @@
-import { Icountry, IcountryApi } from "../components/types";
+import { Icountry, IcountryApi } from "../types";
 
 export const transformCountries = (countries: IcountryApi[]): Icountry[] => {
-  return countries.map((country: any) => {
+  return countries.map((country) => {
     return {
       flag: country.flags.svg,
       name: country.name.common,
